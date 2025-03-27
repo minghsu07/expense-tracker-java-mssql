@@ -113,6 +113,9 @@ public class User {
                 }
 
             }else{
+                Alert alert=new Alert(Alert.AlertType.ERROR,"Error",ButtonType.OK);
+                alert.setContentText("Please check your username and password");
+                alert.show();
                 return false;
             }
 

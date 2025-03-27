@@ -12,10 +12,10 @@ public class DBConnection {
     public static final int RETRY_DELAY_MS=2000;
     public static Connection connection;
 
-    private static final String url = ConfigLoader.getProperty("DB_URL");
+    private static final String server = ConfigLoader.getProperty("DB_Server");
     private static final String user= ConfigLoader.getProperty("DB_User");
     private static final String password = ConfigLoader.getProperty("DB_Password");
-
+    private static final String url = "jdbc:sqlserver://"+server+";databaseName=ExpenseTracker;user="+user+";password="+password+";trustServerCertificate=true;";
 
     public DBConnection(){
 
@@ -29,7 +29,8 @@ public class DBConnection {
                 try {
                     attempt++;
                     Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-                    connection=DriverManager.getConnection(url,user,password);
+//                    connection=DriverManager.getConnection(url,user,password);
+                    connection=DriverManager.getConnection(url);
                     System.out.println("Database connection successful.");
                     return connection;
 
