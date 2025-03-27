@@ -42,7 +42,7 @@ public class LoginController  {
 
         NewUserController newUserController=new NewUserController();
         Stage currentStage=(Stage)((Node)event.getSource()).getScene().getWindow();
-        SceneLoader.loadScene("NewUserPage.fxml",currentStage, newUserController);
+        SceneLoader.loadScene("views/NewUserPage.fxml",currentStage, newUserController);
 
     }
 
@@ -52,7 +52,6 @@ public class LoginController  {
         String username=Username.getText().trim();
         String passwd=Password.getText().replaceAll("\\s","");
 
-        Alert alert=new Alert(Alert.AlertType.ERROR,"Please check your username and password");
 
         User user = User.getInstance(); // Get the Singleton instance
         // Try to log in

@@ -76,7 +76,7 @@ public class NewUserController {
 
                 LoginController loginController=new LoginController();
                 Stage currentStage=(Stage)((Node)event.getSource()).getScene().getWindow();
-                SceneLoader.loadScene("Login.fxml",currentStage, loginController);
+                SceneLoader.loadScene("views/Login.fxml",currentStage, loginController);
 
 
                 Alert msg=new Alert(Alert.AlertType.INFORMATION,"\""+username+"\" is created successfully!!!");
