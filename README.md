@@ -38,12 +38,18 @@ The Expense Tracker is a Java-based desktop application designed to help individ
 1. Create a directory for this repository.
 
 2. Clone the repository
-   > git clone https://github.com/minghsu07/JavaFX-ExpenseTracker.git
+   > git clone https://github.com/minghsu07/expense-tracker-java-mssql.git
 
 3. Open the project in your preferred Java IDE.
 
-4. Configure the database connection by updating the `config.properties` file, located in the `resources` folder:
-   > DB_Name=Expense.db
+4. Run the `DBCreation.sql` script from script folder using SSMS or the `sqlcmd` tool to create a database and a user.
+
+5. Configure the database connection by updating the `config.properties` file, located in the `resources` folder:
+   > DB_Server=ip:port  (e.g., 172.31.31.111:1433)
+   > 
+   > DB_User=ExpenseTrackerApp
+   > 
+   > DB_Password=1qaz@WSX
 
 5. Build and run the project.
 
