@@ -9,9 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="110aba21-2191-4ca8-a3dc-6fe61fcf0a74" name="Changes" comment="upload a script">
+    <list default="true" id="110aba21-2191-4ca8-a3dc-6fe61fcf0a74" name="Changes" comment="upload readme.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andy/expensetracker/Controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andy/expensetracker/Controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andy/expensetracker/Controllers/NewExpense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andy/expensetracker/Controllers/NewExpense.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743111727528</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="upload readme.md">
+      <option name="closed" value="true" />
+      <created>1743112630501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743112630501</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,7 +162,8 @@
     <MESSAGE value="Added Login page" />
     <MESSAGE value="update reademe.md" />
     <MESSAGE value="upload a script" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload a script" />
+    <MESSAGE value="upload readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload readme.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
